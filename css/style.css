@@ -1,17 +1,39 @@
 /* ----------------ZATO------------------ */
-/* efecto para los titulos del nav */
+@media (max-width: 992px) {
+    .m-z-in {
+        display: none;
+    }
+    
+}
 .m-img {
-    width: 40px;
-    height: 35px;
+    width: 44px;
+    height: 40px;
+    background-image: url(../img/menu-icon.png);
+    background-size: cover;
 }
 .m-z-in {
     position: fixed;
     top: 7px;
     left: 7px;
     z-index: 100;
-    padding: 1.5px;
+    padding: 5px;
+    border-width: 1px;
+    border-style: solid;
     border-color: rgb(255, 186, 59);
+    border-radius: 5px;
 }
+.m-z-in:hover {
+    border-width: 0;
+    background-image: url(../img/menu-icon-hover.png);
+}
+.m-z-in:active {
+    background-image: url(../img/menu-icon-active.png);
+    border: 0;
+}
+.m-z-in:focus {
+    outline: none;
+}
+/* efecto para los titulos del nav */
 .m-lib {
     border-style: solid;
     border-color: rgb(255, 186, 59);
