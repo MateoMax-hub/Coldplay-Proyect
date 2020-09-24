@@ -1,0 +1,54 @@
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color:rgba(235, 196, 23, 0.568);
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+body{
+  background-color: rgba(218, 205, 26, 0.719);
+}
+p{
+  color: rgba(0, 0, 0, 0.726);
+}
+.card-body{
+  background-color: rgba(255, 255, 255, 0.541);
+  transition-property: all;
+  transition-duration: 1s;
+  transition-delay: 0s, 0s;
+}
+.card-body:hover{
+  box-shadow: 45px 25px 25px black;
+  transform: translate(5px, 5px);
+}
+h1{
+  font-family: fantasy;
+  font-size: 300x;
+  margin: 0%;
+}
