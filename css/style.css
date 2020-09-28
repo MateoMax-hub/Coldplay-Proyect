@@ -275,6 +275,10 @@
 
 /* BOTONES REDES */
 
+.m-social-icon {
+    font-size: 40px;
+}
+
 button.insta {
     background-image: url(../img/insta.png);
     background-size: cover;
