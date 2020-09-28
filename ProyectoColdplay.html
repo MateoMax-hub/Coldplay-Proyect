@@ -822,27 +822,20 @@
 
 
         <footer class="footer d-flex flex-column align-items-center">
-            <div class="d-flex w-100 justify-content-center bg-warning pt-4 pb-4">
-                <form id="form" action="modal"
-                    class="d-flex flex-column m-w-40 m-h-293 justify-content-center border pt-5 pr-5 pl-5 pb-4 m-bg-grey">
-                    <div class="d-flex justify-content-between ">
-                        <div class="d-flex flex-column align-items-center">
-                            <label for="">Nombre</label>
-                            <input type="text">
+            <div class="d-flex flex-column align-items-center m-bg-form w-100" id="form">
+                <h2 class="text-white m-border-h2 p-2 mt-5 mb-5 bg-dark">¡CONTACTANOS!</h2>
+                <form class="d-flex flex-column m-border-h2 p-5 bg-dark mb-4 m-w-form">
+                    <div class="d-flex mb-5">
+                        <div class="d-flex flex-column justify-content-between w-50 pr-3 m-h-162">
+                            <input type="text" class="p-1 m-inputs w-100 m-border m-radius" placeholder="* NOMBRE" required>
+                            <input type="email" class="p-1 m-inputs w-100 m-border m-radius" placeholder="* EMAIL" required>
+                            <input type="tel" class="p-1 m-inputs w-100 m-border m-radius" placeholder="* NUMERO TELEFONICO" required>
                         </div>
-                        <div class="d-flex flex-column align-items-center">
-                            <label for="">Email</label>
-                            <input type="email">
+                        <div class="d-flex flex-column w-50 pl-3">
+                            <textarea rows="5" class="m-inputs m-border m-radius" placeholder="* MENSAJE" required></textarea>
                         </div>
                     </div>
-                    <div class="mt-5 d-flex justify-content-around">
-                        <label for="" class=" align-self-start">Mensaje</label>
-                        <input type="text" class=" m-wh-f">
-                        <button type="button" class="btn btn-primary align-self-end bg-dark text-white"
-                            data-toggle="modal" data-target="#modalform">
-                            Enviar
-                        </button>
-                    </div>
+                    <button class="text-white m-button m-radius">Enviar</button>
                 </form>
             </div>
 

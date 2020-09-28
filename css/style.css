@@ -197,14 +197,6 @@ body {
     height: 1107px
 }
 
-/* width y height para el form */
-.m-w-40 {
-    width: 40%;
-}
-.m-h-293 {
-    height: 293px;
-}
-
 /* margen para el copyright del footer */
 .m-p {
     margin-bottom: 0;
@@ -223,19 +215,20 @@ body {
     height: 23px;
 }
 
-/* width y height para input en form */
-.m-wh-f {
-    height: 125px;
-    width: 293px;
-}
-
-/* heigth para img */
+/* height para img */
 .m-h-img {
     height: 286px;
 }
 
+/* width de todo el form */
+.m-w-form {
+    width: 60%;
+}
 
-
+/* height fijo para inputs izquierda del form  */
+.m-h-162 {
+    height: 162px;
+}
 
 /* nodeco para a href */
 
@@ -259,24 +252,48 @@ body {
 }
 
 
-/* hr para el form */
-.m-formhr {
-    background-color: #ffc107;
-    width: 100%;
-    margin: 0;
-    padding-top: 25px;
-    border: 0;
-}
 
 /* background casi blanco */
 .m-bg-grey {
     background-color: rgb(241, 241, 241);
 }
 
-/* BOTONES REDES */
 
+/* botones redes */
 .m-social-icon {
     font-size: 40px;
     margin: 15px;
 }
 
+
+/* bg para form */
+.m-bg-form {
+    background-size: cover;
+    background-image: url(../img/fondos-prueba/fondo.jpg);
+    background-position: center;
+}
+
+
+/* h2 que dice contactanos */
+.m-border-h2 {
+    border: 2px solid #ffc107;
+    border-radius: 10px;
+}
+
+
+/* inputs width */
+.m-inputs {
+    padding: 1.25rem;
+}
+
+
+/* boton enviar form  */
+.m-button {
+    background-color: #ffc107;
+    border: none;
+}
+
+/* radius para form  */
+.m-radius {
+    border-radius: 10px;
+}
