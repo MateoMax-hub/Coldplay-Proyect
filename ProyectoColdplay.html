@@ -827,18 +827,22 @@
         <footer class="footer d-flex flex-column align-items-center">
             <div class="d-flex flex-column align-items-center m-bg-form w-100" id="form">
                 <h2 class="text-white m-border-h2 p-2 mt-5 mb-5 bg-dark">¡CONTACTANOS!</h2>
-                <form class="d-flex flex-column m-border-h2 m-form-padding bg-dark mb-4 m-w-form">
+                <form name="formCont" onsubmit="return validateForm(event)" class="d-flex flex-column m-border-h2 m-form-padding bg-dark mb-4 m-w-form">
                     <div class="d-flex m-mb-5">
                         <div class="d-flex flex-column justify-content-between w-50 pr-3 m-h-162">
-                            <input type="text" class="p-1 m-inputs w-100 m-border m-radius" placeholder="* NOMBRE" required>
-                            <input type="email" class="p-1 m-inputs w-100 m-border m-radius" placeholder="* EMAIL" required>
-                            <input type="tel" class="p-1 m-inputs w-100 m-border m-radius" placeholder="* NUMERO TELEFONICO" required>
+                            <input id="input" name="fname" type="text" class="p-1 m-inputs w-100 m-border m-radius" placeholder="* NOMBRE">
+                            <li class=" text-danger m-d-none" id="required">INGRESAR NOMBRE</li>
+                            <input id="input1" name="femail" type="text" class="p-1 m-inputs w-100 m-border m-radius" placeholder="* EMAIL">
+                            <li class=" text-danger m-d-none" id="required1">INGRESAR EMAIL</li>
+                            <input id="input2" name="ftel" type="tel" class="p-1 m-inputs w-100 m-border m-radius" placeholder="* NUMERO TELEFONICO">
+                            <li class=" text-danger m-d-none" id="required2">INGRESAR TELEFONO</li>
                         </div>
                         <div class="d-flex flex-column w-50 pl-3">
-                            <textarea rows="5" class="m-inputs m-border m-radius" placeholder="* MENSAJE" required></textarea>
+                            <textarea id="input3" name="ftext" rows="5" class="m-inputs m-border m-radius" placeholder="* MENSAJE"></textarea>
+                            <li class=" text-danger m-d-none" id="required3">INGRESAR MENSAJE</li>
                         </div>
                     </div>
-                    <button class="text-white m-button m-radius">Enviar</button>
+                    <button type="submit" class="text-white m-button m-radius">Enviar</button>
                 </form>
             </div>
 

@@ -294,7 +294,7 @@ body {
 }
 
 
-/* bootstrap para modificar con el media  */
+/* bootstrap para modificar con el media */
 .m-form-padding {
     padding: 3rem;
 }
@@ -309,6 +309,14 @@ body {
 }
 .m-mb-5-none {
     margin-bottom: 3rem;
+}
+
+/* clases para usar junto js */
+.m-m-i {
+    margin-bottom: 23.75px;
+}
+.m-d-none {
+    display: none;
 }
 /* MEDIA  */
 
