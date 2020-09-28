@@ -192,11 +192,6 @@ body {
 
 /* MARGENES WIDTH Y HEIGHT */
 
-/* height del container de cards */
-.m-height {
-    height: 1107px
-}
-
 /* margen para el copyright del footer */
 .m-p {
     margin-bottom: 0;
@@ -296,4 +291,50 @@ body {
 /* radius para form  */
 .m-radius {
     border-radius: 10px;
+}
+
+
+/* bootstrap para modificar con el media  */
+.m-form-padding {
+    padding: 3rem;
+}
+.m-mb-5 {
+    margin-bottom: 3rem;
+}
+.m-flex-wrap {
+    flex-wrap: nowrap;
+}
+.m-mt-5 {
+    margin-top: 3rem;
+}
+.m-mb-5-none {
+    margin-bottom: 3rem;
+}
+/* MEDIA  */
+
+@media (max-width: 425px) {
+    .m-w-form {
+        width: 97%;
+    }
+    .m-form-padding {
+        padding: 1rem;
+    }
+    .m-social-icon {
+        margin: 5px;
+    }
+    .m-flex-wrap {
+        flex-wrap: wrap;
+    }
+    .m-m-media {
+        margin-bottom: 3rem;
+    }
+    .m-mb-5 {
+        margin-bottom: 1rem;
+    }
+    .m-mt-5 {
+        margin-top: 1rem;
+    }
+    .m-mb-5-none {
+        margin-bottom: 0;
+    }
 }
