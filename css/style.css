@@ -170,7 +170,7 @@
 /* -----------------------MAX------------------ */
  /* COLOCACION DEL FOOTER */
 
- body {
+body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -277,36 +277,6 @@
 
 .m-social-icon {
     font-size: 40px;
+    margin: 15px;
 }
 
-button.insta {
-    background-image: url(../img/insta.png);
-    background-size: cover;
-}
-button.insta:hover {
-    background-image: url(../img/insta-hover.png);
-    border-color: gray;
-}
-button.youtube {
-    background-image: url(../img/youtube.png);
-    background-size: cover;
-}
-button.youtube:hover {
-    background-image: url(../img/youtube-hover.png);
-    border-color: gray;
-}
-button.twitter {
-    background-image: url(../img/twitter.jpg);
-    background-size: cover;
-}
-button.twitter:hover {
-    background-image: url(../img/twitter-hover.png);
-    border-color: gray;
-}
-button.redes {
-    width: 40px;
-    height: 40px;
-    padding: 0px;
-    border: 1px solid  #ffc107;
-    border-radius: 10px;
-}
