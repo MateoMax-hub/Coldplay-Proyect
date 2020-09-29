@@ -3,7 +3,6 @@
     .m-z-in {
         display: none;
     }
-    
 }
 .m-img {
     width: 44px;
@@ -33,15 +32,9 @@
 .m-z-in:focus {
     outline: none;
 }
-/* efecto para los titulos del nav */
-.m-lib {
-    border-style: solid;
-    border-color: rgb(255, 186, 59);
-    border-width: 0px 1px;
-}
 .m-lib:hover {
-    border-color: rgb(128, 128, 128);
-    background-color: rgb(128, 128, 128);
+    border-color: rgba(128, 128, 128, 0.158);
+    background-color: rgba(128, 128, 128, 0.158);
 }
 .m-li:hover {
     color: #ffffff;
@@ -345,4 +338,8 @@ body {
     .m-mb-5-none {
         margin-bottom: 0;
     }
+    .m-header {
+        min-height: 0;
+    }
 }
+/* ------------------------------------------- */

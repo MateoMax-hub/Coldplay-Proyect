@@ -1,377 +1,1070 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Jekyll v4.1.1">
-    <title>Album example · Bootstrap</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/album/">
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="css/album.css">
 
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-    <!-- Custom styles for this template -->
-    <link href="album.css" rel="stylesheet">
-  </head>
+    <title>Coldplay!</title>
+</head>
 
- <body>
-  <main role="main">
-  <section class="a jumbotron text-center">
-    <div class="a container">
-      <h1>Albumes de ColdPlay</h1>
-      <p class="lead text-muted">Coldplay hizo su debut en julio de 2000 con el lanzamiento de Parachutes, que logró éxitos moderados, tanto de crítica como comercialmente. Parachutes vendió más de 7,5 millones de copias en todo el mundo, el álbum fue certificado con doble platino en los Estados Unidos y siete veces platino en el Reino Unido.</p>
-     <div class="hh">
-      <p>
-        <a href="https://www.youtube.com/c/coldplay/playlists" class="btn btn-primary my-2">Youtube</a>
-        <a href="https://www.coldplay.com/" class="btn btn-secondary my-2">Coldplay</a>
-      </p>
-     </div>
-    </div>
-  </section>
-
-  <div class="album py-5 bg-light">
-    <div class="a container">
-
-      <div class="a row">
-        <div class="a col-md-4 A">
-          <div class="a card mb-4 shadow-sm">
-            <img src="img/1 everyday life.jpg" width="100%" height="300px" alt="">
-            <div class="card-body">
-              <p class="a card-text"><h4>Everyday life</h4></p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div>
-                  <p>1. Sunrise
-                    <br>
-                    2. Church
-                    <br>
-                    3. Trouble in Town
-                    <br>
-                    4. BrokEn
-                    <br>
-                    5. Daddy
-                    <br>
-                    6. WOTW / POTP
-                    <br>
-                    7. Arabesque
-                    <br>
-                    8. When I Need a Friend</p>
+<body>
+    <section id="zato">
+        <header class="m-header">
+            <div class="m-bg-dark w-100 bg-dark" id="navbar">
+                <div class="container w-100">
+                    <nav class="navbar navbar-expand-lg navbar-light p-0">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="m-navg navbar-nav w-100 d-flex justify-content-around">
+                                <li class="m-li nav-item m-lib">
+                                    <a class="nav-link" href="#services">Servicios</a>
+                                </li>
+                                <li class="m-li nav-item m-lib">
+                                    <a class="nav-link" href="#albumes-card">Portafolio</a>
+                                </li>
+                                <li class="m-li nav-item m-lib">
+                                    <a class="nav-link" href="#andres">Sobre</a>
+                                </li>
+                                <li class="m-li nav-item m-lib">
+                                    <a class="nav-link" href="#about-members">Equipo</a>
+                                </li>
+                                <li class="m-li nav-item m-lib">
+                                    <a class="nav-link" href="#form">Contacto</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- <form class="">
+                        <input class="" type="search" placeholder="Search" aria-label="Search">
+                        <button type="button" class="btn btn-secondary">Search</button>
+                    </form> -->
+                    </nav>
                 </div>
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://www.youtube.com/watch?v=7HmiFxqdgq4">Disco</a></button>
-                </div>
-                <small class="text-muted">16 Canciones</small>
-              </div>
             </div>
-          </div>
-        </div>
-        <div class="a col-md-4 A">
-          <div class="a card mb-4 shadow-sm">
-            <img src="img/2 Parachutes.jpg" width="100%" height="300px" alt="">
-            <div class="a card-body">
-              <p class="a card-text"><h4>Parachutes</h4></p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div>
-                  <p>
-                    1. Don't Panic
-                    <br>
-                    2. Shiver
-                    <br>
-                    3. Spies
-                    <br>
-                    4. Sparks
-                    <br>
-                    5. Yellow
-                    <br>
-                    6. Trouble
-                    <br>
-                    7. Parachutes
-                    <br>
-                    8. High Speed
-                  </p>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/carousel-img-1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/carousel-img-2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/carousel-img-3.jpg" class="d-block w-100" alt="...">
+                    </div>
                 </div>
-                <div class="a btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://www.youtube.com/watch?v=yWeuUwpEQfs&list=OLAK5uy_m4lOn8HJoLfTETxg2d6QouxcQd3nM4Gf0">Disco</a></button>
-                </div>
-                <small class="text-muted">16 Canciones</small>
-              </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
-          </div>
+        </header>
+    </section>
+    <section id="tadeo" class="t-body container mx-auto">
+
+        <div id="services" class="t-tittle mt-4 bg-dark p-2">
+            <h1 id="tittle" class="d-flex justify-content-center">
+                Recitales
+            </h1>
+    
+            <h4 id="sub-tittle" class="d-flex justify-content-center">
+                Conciertos alrededor del mundo
+            </h4>
         </div>
-        <div class="a col-md-4 ">
-          <div class="a card mb-4 shadow-sm">
-            <img src="img/3 A Head Full of Dreams.jpg" width="100%" height="300px" alt="">
-            <div class="a card-body">
-              <p class="a card-text"><h4>A Head Full of Dreams</h4></p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div>
-                  <p> 1. A Head Full of Dreams
-                    <br>
-                    2. Hymn for the Weekend
-                    <br>
-                    3. Everglow
-                    <br>
-                    4. Adventure of a Lifetime
-                    <br>
-                    5. Fun
-                    <br>
-                    6. Kaleidoscope
-                    <br>
-                    7. Army of One
-                    <br>
-                    8. Birds
-                  </p>
+        <section id="recitales" class="p-1 container mx-auto">
+            <div id="carouselExampleCaptions" class="t-carousel carousel p-2 w-50 mx-auto" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/recita1.jpg" class="d-block w-100"  alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Estadio Único – La Plata</h3>
+                            <h4>[01.04.2016]</h4>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/recital2.jpg" class="d-block w-100"  alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Wembley Stadium - Londres</h3>
+                            <h4>[15.06.2016]</h4>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/recital3.jpg" class="d-block w-100"  alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Hollywood Palladium - California</h3>
+                            <h4>[21.01.2020]</h4>
+                        </div>
+                    </div>
                 </div>
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://www.youtube.com/watch?v=rwdwb5Fkgso&list=OLAK5uy_k9JzaucpnUEtwkI6e1N4eD7eYSVpM9MZA">Disco</a></button>
-                </div>
-                <small class="a text-muted">16 Canciones</small>
-              </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
-          </div>
+        </section>
+    
+        <!-- <div id="boton" class="t-button d-flex flex-wrap justify-content-center m-5">
+    
+            <a href="#form" class="btn btn-outline-warning" type="btn">
+                
+                    Contacto
+                
+            </a>
+    
+        </div> -->
+    
+        <div id="portfolio" class="t-tittle mt-4 bg-dark p-2">
+            <h1 id="tittle" class="d-flex justify-content-center">
+                Albumes
+            </h1>
+        </div>
+    
+        <section id="albumes-card" class="container mx-auto">
+            <div class="card-deck m-5">
+                <div class="t-card card">
+                    <img src="./img/album.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+    
+                        <h5 class="card-title">
+                            A Head Full of Dreams
+                        </h5>
+    
+                        <p class="card-text">
+                            Fue lanzando comercialmente el 4 de diciembre de 2015, por las
+                            discográficas Parlophone y Atlantic Records.17​ Es el segundo álbum de la banda en América
+                            
+                            
+                        </p>
+    
+                        <button type="button" class="t-button btn btn-dark" data-toggle="modal"
+                            data-target="#exampleModal">
+                            Lista de Canciones
+                        </button>
+    
+                    </div>
+                </div>
+                <div class="t-card card">
+                    <img src="./img/album1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+    
+                        <h5 class="card-title">
+                            Mylo Xyloto
+                        </h5>
+    
+                        <p class="card-text">
+                            Mylo Xyloto. El álbum fue publicado el 24 de octubre de 2011. El primer sencillo "Every
+                            Teardrop Is a
+                            Waterfall", fue publicado el 3/06/2011.
+                        </p>
+    
+                        <button type="button" class="t-button btn btn-dark" data-toggle="modal" data-target="#Modal2">
+                            Lista de Canciones
+                        </button>
+    
+                    </div>
+                </div>
+                <div class="t-card card">
+                    <img src="./img/album2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+    
+                        <h5 class="card-title">
+                            X&Y
+                        </h5>
+    
+                        <p class="card-text">
+                            X&Y es el tercer álbum de estudio de la banda inglesa Coldplay, lanzado el 6 de junio de
+                            2005 en el Reino
+                            Unido a través de la discográfica Parlophone.
+    
+                        </p>
+    
+                        <button type="button" class="t-button btn btn-dark" data-toggle="modal" data-target="#Modal3">
+                            Lista de Canciones
+                        </button>
+    
+                    </div>
+                </div>
+            </div>
+    
+            <div class="card-deck m-5">
+                <div class="t-card card">
+                    <img src="./img/album3.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+    
+                        <h5 class="card-title">
+                            Everyday life
+                        </h5>
+    
+                        <p class="card-text">
+                            Everyday Life es el octavo álbum de estudio de la banda
+                            .Fue lanzado el 22 de noviembre de 2019 por Parlophone en el Reino Unido y Atlantic en
+                            los Estados Unidos.
+                        </p>
+    
+                        <button type="button" class="t-button btn btn-dark" data-toggle="modal" data-target="#Modal4">
+                            Lista de Canciones
+                        </button>
+    
+                    </div>
+                </div>
+                <div class="t-card card">
+                    <img src="./img/album4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+    
+                        <h5 class="card-title">
+                            A Rush of Blood to the Head
+                        </h5>
+    
+                        <p class="card-text">
+                            A Rush of Blood to the Head es el segundo álbum de estudio
+                            de la banda británica Coldplay. Lanzado el 26 de agosto de 2002
+                        </p>
+    
+                        <button type="button" class="t-button btn btn-dark" data-toggle="modal" data-target="#Modal5">
+                            Lista de Canciones
+                        </button>
+                    </div>
+                </div>
+                <div class="t-card card">
+                    <img src="./img/album5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+    
+                        <h5 class="card-title">
+                            Parachutes
+                        </h5>
+    
+                        <p class="card-text">
+                            Parachutes es el primer álbum de estudio de la banda inglesa Coldplay, lanzado a
+                            través de Parlophone el 10 de julio de 2000 en el Reino Unido
+                        </p>
+    
+                        <button type="button" class="t-button btn btn-dark" data-toggle="modal" data-target="#Modal6">
+                            Lista de Canciones
+                        </button>
+    
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <div id="boton" class="t-button d-flex flex-wrap justify-content-center m-5">
+            <a href="./index.html" type="btn" class="btn btn-outline-warning">
+                
+                    Ver más
+                
+            </a>
+        </div>
+    
+        <section id="modals">
+            <!-- Modal album 6 -->
+            <div class="t-modal modal fade" id="Modal6" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Parachutes</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+    
+                            <img src="./img/album5.jpg" class="card-img-top" alt="...">
+    
+                            <ol class="t-list m-2 d-flex flex-column align-items-center">
+                                <li>
+                                    Don't Panic
+                                </li>
+                                <li>
+                                    Shiver
+                                </li>
+                                <li>
+                                    Spies
+                                </li>
+                                <li>
+                                    Sparks
+                                </li>
+                                <li>
+                                    Yellow
+                                </li>
+                                <li>
+                                    Trouble
+                                </li>
+                                <li>
+                                    Parachutes
+                                </li>
+                                <li>
+                                    High Speed
+                                </li>
+                                <li>
+                                    We Never Change
+                                </li>
+                                <li>
+                                    Everything's Not Lost
+                                </li>
+    
+                            </ol>
+    
+                            <a href="https://www.youtube.com/watch?v=yWeuUwpEQfs&list=OLAK5uy_m4lOn8HJoLfTETxg2d6QouxcQd3nM4Gf0"
+                                target="_blank">
+                                <button type="button" class=" btn btn-outline-warning">
+                                    Reproducir album
+                                </button>
+                            </a>
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+    
+            <!-- Modal album 5 -->
+            <div class="t-modal modal fade" id="Modal5" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">A Rush of Blood to the Head</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+    
+                            <img src="./img/album4.jpg" class="card-img-top" alt="...">
+    
+                            <ol class="t-list m-2 d-flex flex-column align-items-center">
+                                <li>
+                                    Politik
+                                </li>
+                                <li>
+                                    In My Place
+                                </li>
+                                <li>
+                                    God Put a Smile upon Your Face
+                                </li>
+                                <li>
+                                    The Scientist
+                                </li>
+                                <li>
+                                    Clocks
+                                </li>
+                                <li>
+                                    Daylight
+                                </li>
+                                <li>
+                                    Green Eyes
+                                </li>
+                                <li>
+                                    Warning Sign
+                                </li>
+                                <li>
+                                    A Whisper
+                                </li>
+                                <li>
+                                    A Rush of Blood to the Head
+                                </li>
+                                <li>
+                                    Ámsterdam
+                                </li>
+    
+                            </ol>
+    
+                            <a href="https://www.youtube.com/watch?v=GOrADSEKb_k&list=OLAK5uy_k2FivlV4BFfc5fGkDXmmt_gTGAqhN00YE"
+                                target="_blank">
+                                <button type="button" class=" btn btn-outline-warning">
+                                    Reproducir album
+                                </button>
+                            </a>
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+    
+            <!-- Modal album 4 -->
+            <div class="t-modal modal fade" id="Modal4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Everyday Life</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+    
+                            <img src="./img/album3.jpeg" class="card-img-top" alt="...">
+    
+                            <ol class="t-list m-2 d-flex flex-column align-items-center">
+                                <li>
+                                    Sunrise
+                                </li>
+                                <li>
+                                    Church
+                                </li>
+                                <li>
+                                    Trouble in Town
+                                </li>
+                                <li>
+                                    Broken
+                                </li>
+                                <li>
+                                    Daddy
+                                </li>
+                                <li>
+                                    WOTW / POTP
+                                </li>
+                                <li>
+                                    Arabesque
+                                </li>
+                                <li>
+                                    When I Need a Friend
+                                </li>
+    
+                            </ol>
+    
+                            <a href="https://www.youtube.com/watch?v=H97NQznnvZo&list=OLAK5uy_mbiRc-WQKXNRCfAeZBsoA-hILP3Oeu2WU"
+                                target="_blank">
+                                <button type="button" class=" btn btn-outline-warning">
+                                    Reproducir album
+                                </button>
+                            </a>
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+    
+            <!-- Modal album 3 -->
+            <div class="t-modal modal fade" id="Modal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">X&Y</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+    
+                            <img src="./img/album2.png" class="card-img-top" alt="...">
+    
+                            <ol class="t-list m-2 d-flex flex-column align-items-center">
+                                <li>
+                                    Square One
+                                </li>
+                                <li>
+                                    What If
+                                </li>
+                                <li>
+                                    White Shadows
+                                </li>
+                                <li>
+                                    Fix You
+                                </li>
+                                <li>
+                                    Talk
+                                </li>
+                                <li>
+                                    X&Y
+                                </li>
+                                <li>
+                                    Speed of Sound
+                                </li>
+                                <li>
+                                    A Message
+                                </li>
+                                <li>
+                                    Low
+                                </li>
+                                <li>
+                                    The Hardest Part
+                                </li>
+                                <li>
+                                    Swallowed in the Sea
+                                </li>
+                                <li>
+                                    Twisted Logic
+                                </li>
+                                <li>
+                                    Til Kingdom Come
+                                </li>
+    
+                            </ol>
+    
+                            <a href="https://www.youtube.com/watch?v=j37GED-AR3M&list=OLAK5uy_lRdzGKvuenqQAnspsk8LsswwAduYy4dr8"
+                                target="_blank">
+                                <button type="button" class=" btn btn-outline-warning">
+                                    Reproducir album
+                                </button>
+                            </a>
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+    
+            <!-- Modal album 2 -->
+            <div class="t-modal modal fade" id="Modal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Mylo Xyloto</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+    
+                            <img src="./img/album1.jpg" class="card-img-top" alt="...">
+    
+                            <ol class="t-list m-2 d-flex flex-column align-items-center">
+                                <li>
+                                    Mylo Xyloto
+                                </li>
+                                <li>
+                                    Hurts Like Heaven
+                                </li>
+                                <li>
+                                    Paradise
+                                </li>
+                                <li>
+                                    Charlie Brown
+                                </li>
+                                <li>
+                                    Us Against The World
+                                </li>
+                                <li>
+                                    M.M.I.X.
+                                </li>
+                                <li>
+                                    Every Teardrop Is a Waterfall
+                                </li>
+                                <li>
+                                    Major Minus
+                                </li>
+                                <li>
+                                    U.F.O.
+                                </li>
+                                <li>
+                                    Princess of China(ft.Rihanna)
+                                </li>
+                                <li>
+                                    Up in Flames
+                                </li>
+                                <li>
+                                    A Hopeful Transmission
+                                </li>
+                                <li>
+                                    Don't Let It Break Your Heart
+                                </li>
+                                <li>
+                                    Up with the birds
+                                </li>
+    
+                            </ol>
+    
+                            <a href="https://www.youtube.com/watch?v=YUy4awDXeSE&list=OLAK5uy_kl4b_zD7LKAf3zQLwthKpWCcNDwkxhU3Y"
+                                target="_blank">
+                                <button type="button" class=" btn btn-outline-warning">
+                                    Reproducir album
+                                </button>
+                            </a>
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+    
+            <!-- Modal album 1 -->
+            <div class="t-modal modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">A Head Full of Dreams</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+    
+                            <img src="./img/album.jpg" class="card-img-top" alt="...">
+    
+                            <ol class=" t-list m-2 d-flex flex-column align-items-center">
+                                <li>
+                                    A Head Full Dreams
+                                </li>
+                                <li>
+                                    Birds
+                                </li>
+                                <li>
+                                    Hymn For The Weekend
+                                </li>
+                                <li>
+                                    Everglow
+                                </li>
+                                <li>
+                                    Adventure of Lifetime
+                                </li>
+                                <li>
+                                    Fun (ft.Tove lo)
+                                </li>
+                                <li>
+                                    Kaleidoscope
+                                </li>
+                                <li>
+                                    Army of One
+                                </li>
+                                <li>
+                                    Amazing Day Global Film Project
+                                </li>
+                                <li>
+                                    Colour Spectroum
+                                </li>
+                                <li>
+                                    Up&Up
+                                </li>
+                            </ol>
+                            <a href="https://www.youtube.com/watch?v=rwdwb5Fkgso&list=OLAK5uy_k9JzaucpnUEtwkI6e1N4eD7eYSVpM9MZA"
+                                target="_blank">
+                                <button type="button" class=" btn btn-outline-warning">
+                                    Reproducir album
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+        </section>
+    </section>
+    <section id="andres" class="a-body">
+        <div class="a-hh1 row featurette ">
+            <div class="col-md-7">
+                <h2 class="a-featurette-heading">Ellos eran amigos. <span class="text-muted">En el principio.</span></h2>
+                <p class="a-p lead">A los cuatro les unía su pasión por la música y rápidamente se hicieron buenos
+                    amigos. Al
+                    principio, Chris componía canciones con Jonny. Cuando Guy escuchó aquellos temas quiso unirse a la
+                    banda como
+                    bajista. Y Will, que deseaba tanto o más pertenecer a la banda, tuvo que cambiar el bajo por la
+                    batería.</p>
+            </div>
+            <div class="col-md-5">
+                <img src="./img/f1.jpg" class="img-fluid" id="img" alt="">
+            </div>
+        </div>
+        <hr>
+        <div class="a-hh row featurette A">
+            <div class="col-md-7 order-md-2">
+                <h2 class="a-featurette-heading">Su primera grabación. <span class="text-muted">Salió de su bolsillo.</span></h2>
+                <p class="a-p lead">Dos años después de su creación, Coldplay edita su primera grabación, pagada de su
+                    bolsillo.
+                    Se
+                    trata de un EP titulado "Safety", del que editaron 500 copias para repartirlas entre sus amigos y
+                    enviarlas a
+                    las casas discográficas, como forma de darse a conocer...</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img src="./img/f2.jpg" class="img-fluid" id="img" alt="">
+            </div>
         </div>
 
-        <div class="a col-md-4">
-          <div class="a card mb-4 shadow-sm">
-            <img src="img/4 A Rush of Blood to the Head.jpg" width="100%" height="300px" alt="">
-            <div class="a card-body">
-              <p class="a card-text"><h4>A Rush of Blood to the Head</h4></p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div>
-                  <p>
-                    1. Politik
-                    <br>
-                    2. In My Place
-                    <br>
-                    3. God Put a Smile upon Your Face
-                    <br>
-                    4. The Scientist
-                    <br>
-                    5. Clocks
-                    <br>
-                    6. Daylight
-                    <br>
-                    7. Green Eyes
-                    <br>
-                    8. Warning Sign</p>
-                </div>
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://www.youtube.com/watch?v=GOrADSEKb_k&list=OLAK5uy_k2FivlV4BFfc5fGkDXmmt_gTGAqhN00YE">Disco</a></button>
-                </div>
-                <small class="text-muted">11 Canciones</small>
-              </div>
+        <hr>
+
+        <div class="a-hh row featurette">
+            <div class="col-md-7">
+                <h2 class="a-featurette-heading"> Comenzó su crecimiento. <span class="text-muted">Gracias a una revista.</span></h2>
+                <p class="a-p lead">En Abril de 1999, Coldplay publicó el sencillo "Brothers & Sisters" con la
+                    discográfica Fierce
+                    Panda. Debido a esto, la revista New Musical Express eligió a Coldplay como una de las mejores
+                    bandas de 1999.
+                    Tras ser destacados por varios medios como una de las bandas más prometedoras, Coldplay firma
+                    contrato con
+                    Parlophone.</p>
             </div>
-          </div>
+            <div class="col-md-5">
+                <img src="./img/f3.jpg" class="img-fluid" id="img" alt="">
+            </div>
         </div>
-        <div class="a col-md-4">
-          <div class="a card mb-4 shadow-sm">
-            <img src="img/6 X&Y.png" width="100%" height="300px" alt="">
-            <div class="a card-body">
-              <p class="a card-text"><h4>X&Y</h4></p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div>
-                  <p>
-                    1. Square One
-                    <br>
-                    2. What If
-                    <br>
-                    3. White Shadows
-                    <br>
-                    4. Fix You
-                    <br>
-                    5. Talk
-                    <br>
-                    6. X&Y
-                    <br>
-                    7. Speed of Sound
-                    <br>
-                    8. A Message
-                    <br>
-                    9. Low
-                    <br>
-                    10. The Hardest Part
-                  </p>
-                </div>
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://www.youtube.com/watch?v=GOrADSEKb_k&list=OLAK5uy_k2FivlV4BFfc5fGkDXmmt_gTGAqhN00YE">Disco</a></button>
-                </div>
-                <small class="a text-muted">12 Canciones</small>
-              </div>
+    </section>
+    <section id="max" class="m-bg-grey">
+        <section id="about-members">
+            <div class="">
+                <h2 class="mr-auto ml-auto w-75 text-center text-white m-border-h2 p-2 m-mt-5 m-mb-5 bg-dark">Integrantes</h2>
             </div>
-          </div>
-        </div>
-        <div class="a col-md-4">
-          <div class="a card mb-4 shadow-sm">
-            <img src="img/7 Viva la Vida or Death and All His Friends.jpg" width="100%" height="300px" alt="">
-            <div class="a card-body">
-              <p class="a card-text"><h4>Viva la Vida or Death and All His Friends</h4></p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div>
-                  <p>
-                    1. Life In Technicolor
-                    <br>
-                    2. Cemeteries of London
-                    <br>
-                    3. Lost!
-                    <br>
-                    4. 42
-                    <br>
-                    5. Lovers in Japan / Reign of Love
-                    <br>
-                    6. Yes
-                    <br>
-                    7. Viva la Vida
-                    <br>
-                    8. Violet Hill
-                  </p>
+            <div id="container" class="d-flex flex-column align-items-center justify-content-around">
+                <div class="d-flex w-75 justify-content-around m-flex-wrap mb-5">
+                    <div class="card m-border m-m-media" style="width: 18rem;">
+                        <img src="./img/chris-martin.png" class="card-img-top m-h-img" alt="chris-martin">
+                        <div class="card-body">
+                            <div class="m-fh5">
+                                <a href="https://es.wikipedia.org/wiki/Chris_Martin" target="_blank"
+                                    class="m-ta-b">Chris Martin</a>
+                            </div>
+                            <p class="card-text">
+                                <b>nacimiento:</b> 2 de marzo de 1977
+                                <br>
+                                <b>lugar de nacimiento:</b> Exeter (Reino Unido)
+                                <br>
+                                <b>edad:</b>43 años
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="card m-border m-m-media" style="width: 18rem;">
+                        <img src="./img/guy-berryman.jpg" class="card-img-top" alt="guy-berryman">
+                        <div class="card-body">
+                            <div class="m-fh5">
+                                <a href="https://es.wikipedia.org/wiki/Guy_Berryman" target="_blank" class="m-ta-b">Guy
+                                    Berryman</a>
+                            </div>
+                            <p class="card-text"><b>Nacimiento:</b> 12 de abril de 1978
+                                <br>
+                                <b>Lugar de nacimiento:</b> Kirkcaldy, Escocia (Reino Unido)
+                                <br>
+                                <b>Edad:</b> 42 años
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="card m-border" style="width: 18rem;">
+                        <img src="./img/jonny-buckland.jpg" class="card-img-top" alt="jonny-buckland">
+                        <div class="card-body">
+                            <div class="m-fh5">
+                                <a href="https://en.wikipedia.org/wiki/Jonny_Buckland" target="_blank"
+                                    class="m-ta-b">Jonny Buckland</a>
+                            </div>
+                            <p class="card-text"><b>Nacimiento:</b> 11 septiembre de 1977
+                                <br>
+                                <b>Lugar de nacimiento:</b> Londres, Inglaterra (Reino Unido)
+                                <br>
+                                <b>Edad:</b> 43 años
+                            </p>
+
+                        </div>
+                    </div>
                 </div>
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://www.youtube.com/watch?v=sPD59NTahc0&list=OLAK5uy_kXUSXDVkCcqggfSIANQ04RzgV22bZuAL8">Disco</a></button>
+                <div class="d-flex w-75 justify-content-around m-flex-wrap m-mb-5-none">
+                    <div class="card m-border m-m-media" style="width: 18rem;">
+                        <img src="./img/phil-harvey.jpg" class="card-img-top" alt="phil-harvey">
+                        <div class="card-body">
+                            <div class="m-fh5">
+                                <a href="https://es.wikipedia.org/wiki/Phil_Harvey" target="_blank" class="m-ta-b">Phil
+                                    Harvey</a>
+                            </div>
+                            <p class="card-text"><b>Nacimiento:</b> 29 de agosto de 1976
+                                <br>
+                                <b>Lugar de nacimiento:</b> Bristol, Gloucestershire (Reino Unido)
+                                <br>
+                                <b>Edad:</b> 44 años
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="card m-border m-m-media" style="width: 18rem;">
+                        <img src="./img/will-champion.jpg" class="card-img-top" alt="will-champion">
+                        <div class="card-body">
+                            <div class="m-fh5">
+                                <a href="https://es.wikipedia.org/wiki/Will_Champion" target="_blank"
+                                    class="m-ta-b">Will Champion</a>
+                            </div>
+                            <p class="card-text"><b>Nacimiento:</b> 31 de julio de 1978
+                                <br>
+                                <b>Lugar de nacimiento:</b> Southampton, condado de Hampshire, Inglaterra (Reino Unido)
+                                <br>
+                                <b>Edad:</b> 42 años
+                            </p>
+
+                        </div>
+                    </div>
                 </div>
-                <small class="a text-muted">10 Canciones</small>
-              </div>
             </div>
-          </div>
+        </section>
+
+
+
+        <footer class="footer d-flex flex-column align-items-center">
+            <div class="d-flex flex-column align-items-center m-bg-form w-100" id="form">
+                <h2 class="text-white m-border-h2 p-2 mt-5 mb-5 bg-dark">¡CONTACTANOS!</h2>
+                <form name="formCont" onsubmit="return validateForm(event)" class="d-flex flex-column m-border-h2 m-form-padding bg-dark mb-4 m-w-form">
+                    <div class="d-flex m-mb-5">
+                        <div class="d-flex flex-column justify-content-between w-50 pr-3 m-h-162">
+                            <input id="input" name="fname" type="text" class="p-1 m-inputs w-100 m-border m-radius" placeholder="* NOMBRE">
+                            <li class=" text-danger m-d-none" id="required">INGRESAR NOMBRE</li>
+                            <input id="input1" name="femail" type="text" class="p-1 m-inputs w-100 m-border m-radius" placeholder="* EMAIL">
+                            <li class=" text-danger m-d-none" id="required1">INGRESAR EMAIL</li>
+                            <input id="input2" name="ftel" type="tel" class="p-1 m-inputs w-100 m-border m-radius" placeholder="* NUMERO TELEFONICO">
+                            <li class=" text-danger m-d-none" id="required2">INGRESAR TELEFONO</li>
+                        </div>
+                        <div class="d-flex flex-column w-50 pl-3">
+                            <textarea id="input3" name="ftext" rows="5" class="m-inputs m-border m-radius" placeholder="* MENSAJE"></textarea>
+                            <li class=" text-danger m-d-none" id="required3">INGRESAR MENSAJE</li>
+                        </div>
+                    </div>
+                    <button type="submit" class="text-white m-button m-radius">Enviar</button>
+                </form>
+            </div>
+
+            <div class="d-flex justify-content-between row-cols-3 bg-dark text-white w-100 m-h-150">
+
+                <p class="alert-light bg-dark col-4 m-p d-flex align-items-center">
+                    © Copyright 2020 Coldplay - All Rights Reserved
+                </p>
+
+                <div class="col-4 d-flex justify-content-center align-items-center">
+
+                    <a href="https://www.instagram.com/coldplay/" target="_blank">
+                        <i class="fab fa-instagram m-social-icon"></i>
+                    </a>
+                    <a href="https://www.youtube.com/user/ColdplayVEVO" target="_blank">
+                        <i class="fab fa-youtube m-social-icon"></i>
+                    </a>
+                    <a href="https://twitter.com/coldplay_es" target="_blank">
+                        <i class="fab fa-twitter-square m-social-icon"></i>
+                    </a>
+                </div>
+
+                <div class="col-4 d-flex justify-content-end align-items-center">
+                    <a href="" class="align-items-center m-w-a m-h-a mr-4 m-nodeco" data-toggle="modal"
+                        data-target="#modalterm">
+                        Términos y condiciones
+                    </a>
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- Modal terminos y condiciones -->
+        <div class="modal fade" id="modalterm" data-backdrop="static" data-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Términos y condiciones</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        1. RESPONSABILIDAD
+
+                        LA EMPRESA se reserva el derecho de modificar en forma unilateral, sin mediar previo aviso, ni
+                        comunicación al USUARIO y/o VISITANTE, estos Términos y Condiciones, el diseño, la presentación o su
+                        configuración, los servicios ofrecidos, los requisitos de registro o de utilización de la página,
+                        sin que ello genere derecho a reclamo o indemnización alguna en favor del USUARIO y/o VISITANTE.
+
+                        La utilización de los servicios y/o herramientas digitales, existentes en la página, requerirán del
+                        USUARIO y/o VISITANTE la aceptación de términos y condiciones que completan las previsiones
+                        contenidas en la presente en cuanto no se opongan a ellas.
+
+                        LA EMPRESA no se responsabilizará por la existencia, actualización, veracidad, privacidad,
+                        funcionamiento, modificaciones, contenidos, ofertas y legalidad de los sitios de terceros vinculados
+                        a través del presente sitio web. LA EMPRESA no será responsable por las transacciones efectuadas
+                        entre el USUARIO y/o VISITANTE y los sitios con vínculos de la página.
+
+                        El USUARIO y/o VISITANTE no podrá, remover, eliminar, aumentar, añadir, ni de cualquier otra forma
+                        modificar total o parcialmente el Contenido. Tampoco podrá volcar términos o utilizar expresiones
+                        injuriosas, intimidatorias, calumniantes o contrarias a las buenas costumbres. No podrá transmitir
+                        información o material que pueda, concreta o eventualmente, violar derechos de un tercero o que
+                        contenga virus o cualquier otro componente dañino.
+
+                        LA EMPRESA se reserva el derecho de extraer y editar en su totalidad o de manera fraccionada,
+                        cualquier mensaje o material suscripto o remitido por el USUARIO y/o VISITANTE. Así mismo, el
+                        USUARIO y/o VISITANTE garantiza a LA EMPRESA el permiso para la utilización de cualquier
+                        información, sugerencia, idea, dibujo o concepto vertido, con el propósito que LA EMPRESA la utilice
+                        para la obtención de información estadística que permita mejorar el servicio, sin ningún derecho de
+                        compensación en favor del USUARIO y/o VISITANTE.
+
+                        El USUARIO y/o VISITANTE se obliga a usar el Sitio de conformidad con estos Términos y Condiciones,
+                        en forma diligente, correcta y lícita, y conforme con la moral y las buenas costumbres. El USUARIO
+                        y/o VISITANTE responderá por los daños y perjuicios de toda naturaleza que LA EMPRESA pueda sufrir,
+                        directa o indirectamente, como consecuencia del incumplimiento de cualquiera de las obligaciones
+                        derivadas de estos Términos y Condiciones.
+
+                        LA EMPRESA podrá suspender transitoriamente o finalizar la publicación de la página sin aviso previo
+                        y en cualquier momento, sin que ello genere derecho a indemnización alguna en favor del USUARIO y/o
+                        VISITANTE.
+
+                        El USUARIO y/o VISITANTE reconoce y acepta que el uso de esta página es bajo su propio y exclusivo
+                        riesgo.
+
+                        El USUARIO y/o VISITANTE reconoce y acepta que ni LA EMPRESA, ni los directores, empleados o
+                        representantes de cualquiera de ellos, es responsable por daños que surjan de o resulten del uso de
+                        esta página, incluyendo cualquier error, omisión, interrupción, falla, eliminación de archivos o
+                        correos electrónicos (e-mails), defectos, virus, y/o demoras en la operación o transmisión y/o de
+                        cualquier otro tipo.
+
+                        La página puede ser utilizada por el USUARIO y/o VISITANTE en forma totalmente libre y gratuita.
+
+                        2. SITIOS ENLAZADOS
+
+                        A través de la presente página se pone a su disposición dispositivos técnicos de enlace (tales como,
+                        entre otros, links, banners, botones), directorios y herramientas de búsqueda que les permiten
+                        acceder a páginas web pertenecientes a terceros (en adelante los “SITIOS ENLAZADOS”). La instalación
+                        de estos enlaces en las páginas de LA EMPRESA se limita a facilitar a los USUARIO y/o VISITANTE, la
+                        búsqueda y acceso, a la información disponible de los sitios enlazados en Internet, y no presupone
+                        que existe ninguna clase de vínculo o asociación entre LA EMPRESA, sus subsidiarias o afiliadas y
+                        los operadores de los sitios enlazados. LA EMPRESA no controla, ni hacen propios los servicios,
+                        información, datos, archivos, productos y cualquier clase de material existente en los sitios
+                        enlazados. Por lo tanto, el USUARIO y/o VISITANTE, debe extremar la prudencia en la valoración y
+                        utilización de los servicios, información, datos, archivos, productos y cualquier clase de material
+                        existente en los sitios enlazados.
+
+                        LA EMPRESA no garantiza ni asume responsabilidad alguna por los daños y perjuicios que de cualquier
+                        naturaleza pueda causarse por:
+
+                        a) El funcionamiento, disponibilidad, accesibilidad o continuidad de sitios enlazados.
+
+                        b) El mantenimiento de los servicios, información, datos, archivos, productos y cualquier clase de
+                        material existente en los sitios enlazados.
+
+                        c) Las obligaciones y ofertas existentes en los sitios enlazados.
+
+                        2.1. CALIDAD
+
+                        Mediante el uso de esta página, el USUARIO y/o VISITANTE reconoce y acepta que LA EMPRESA no
+                        controla ni garantiza la ausencia de virus en el contenido de los sitios enlazados, ni la ausencia
+                        de otros elementos que pudieran producir alteraciones en sus sistemas informáticos o en los
+                        documentos electrónicos y archivos almacenados en los archivos informáticos del USUARIO.
+
+                        2.2. PROPIEDAD INTELECTUAL
+
+                        Mediante el uso de esta página, el USUARIO y/o VISITANTE reconoce y acepta que LA EMPRESA queda
+                        excluida de cualquier responsabilidad que pudiera ser causada por el uso no autorizado de las marcas
+                        u otros derechos de propiedad intelectual de terceros o contenidos en los sitios enlazados.
+
+                        De igual manera, las eventuales referencias que se hagan en esta página a cualquier producto,
+                        servicio, proceso, sitio enlazado, hipertexto o cualquier otra información en la que se utilicen
+                        marcas, signos distintivos o dominios, el nombre comercial o el nombre del fabricante,
+                        suministrador, etc., que sean titularidad de terceros, en ningún momento constituirán, ni implicarán
+                        respaldo o recomendación alguna por parte de LA EMPRESA. Y en ningún caso, LA EMPRESA se asignará
+                        propiedad ni responsabilidad sobre los mismos.
+
+                        3. POLÍTICA DE PRIVACIDAD
+
+                        La utilización e ingreso a la presente página web de LA EMPRESA, será considerado como aceptación de
+                        los términos de esta Política de Privacidad por parte del USUARIO y/o VISITANTE.
+
+                        Los datos personales que el USUARIO y/o VISITANTE brinde libre y voluntariamente a LA EMPRESA, tales
+                        como nombres, correo electrónico, DNI, teléfono y/o número de legajo, y/o cualquier otro que
+                        voluntariamente suministre a LA EMPRESA cuando ello sea necesario para brindarle un servicio
+                        específico, son incluidos en archivos automatizados, procesados bajo normas de estricta
+                        confidencialidad y protección de datos.
+
+                        El USUARIO y/o VISITANTE podrá brindar información con respecto a sus gustos, evaluaciones y
+                        preferencias. LA EMPRESA utilizará dicha información para elaborar publicidad y/o perfeccionar el
+                        servicio brindado.
+
+                        No obstante lo anterior y en cumplimiento con las leyes aplicables, LA EMPRESA coopera con las
+                        autoridades gubernamentales nacionales, provinciales y municipales, e internacionales en cualquier
+                        investigación en relación con el contenido, ya sean personales o privadas, transmitidas a LA EMPRESA
+                        a través de este Sitio.
+
+                        4. TERMINACIÓN DEL ACCESO
+
+                        LA EMPRESA podrá, en cualquier momento, terminar o suspender el acceso que el USUARIO y/o VISITANTE
+                        tenga a todo o parte de este sitio, sin aviso previo, y sin que ello genere derecho a reclamo o
+                        indemnización alguna. Ni la terminación o suspensión del acceso, ni cualquier acción o inacción del
+                        USUARIO y/o VISITANTE, terminará las disposiciones de estos Términos y Condiciones, los que
+                        permanecerán en plena fuerza y vigor de forma indefinida, sujetas sólo a cualquier cambio que LA
+                        EMPRESA efectúe.
+
+                        5. VIOLACIONES DEL SISTEMA O BASES DE DATOS
+
+                        Es ilícita cualquier acción o uso de dispositivos, software, u otros instrumentos tendientes a
+                        interferir tanto en las actividades y operatoria de LA EMPRESA, así como en las ofertas,
+                        descripciones, cuentas o bases de datos de LA EMPRESA. Cualquier intromisión, tentativa o actividad
+                        violatoria o contraria a las leyes sobre derechos de propiedad intelectual, seguridad de los
+                        sistemas, y/o a las prohibiciones estipuladas en este documento harán pasible a su responsable de
+                        las acciones legales pertinentes, y a las sanciones previstas por este acuerdo.
+
+                        6. JURISDICCIÓN
+
+                        Estos Términos y Condiciones se regirán e interpretarán de acuerdo con las leyes de la República
+                        Argentina. EL USUARIO y/o VISITANTE conviene en que cualquier acción o procedimiento legal entre LA
+                        EMPRESA y ellos, por cualquier propósito respecto a estos Términos y Condiciones, se entablarán
+                        exclusivamente en los Tribunales Ordinarios y Civiles de la provincia de Mendoza.
+
+                        Mediante el presente Ud. deja constancia que ha sido debidamente informado respecto de la finalidad
+                        para la cual han sido recabados sus datos personales y quiénes pueden ser sus destinatarios, como
+                        así también el derecho que le asiste a tener acceso a los mismos, como así a peticionar su
+                        rectificación y/o supresión, todo ello conforme a lo normado en la Ley Nacional de la República
+                        Argentina N° 25326 (Protección de Datos Personales) y su Decreto Reglamentario N° 1558/01.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="a col-md-4">
-          <div class="a card mb-4 shadow-sm">
-            <img src="img/8 Ghost Stories.jpg" width="100%" height="300px" alt="">
-            <div class="a card-body">
-              <p class="a card-text"><h4>Ghost Stories</h4></p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div>
-                  <p>
 
-                    1. Always in My Head
-                    <br>
-                    2. Magic
-                    <br>
-                    3. Ink
-                    <br>
-                    4. BrokEn
-                    <br>
-                    5. True Love
-                    <br>
-                    6. Midnight
-                    <br>
-                    7. Another's Arms
-                    <br>
-                    8. Oceans
-                    <br>
-                    9. A Sky Full of Stars
-                  </p>
+        <!-- Modal form gracias por su mensaje -->
+        <div class="modal fade" id="modalform" data-backdrop="static" data-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">GRACIAS POR SU MENSAJE! :D</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
                 </div>
-                <div class="a btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://www.youtube.com/watch?v=l2UJmdM9Omw&list=OLAK5uy_kHP2sIxRFPxziqO3zZyJSt12pH8HS-_a8">Disco</a></button>
-                </div>
-                <small class="a text-muted">9 Canciones</small>
-              </div>
             </div>
-          </div>
         </div>
-        <div class="a col-md-4 A">
-          <div class="a card mb-4 shadow-sm">
-            <img src="img/9 Mylo Xyloto.jpg" width="100%" height="300px" alt="">
-            <div class="a card-body">
-              <p class="a card-text"><h4>Mylo Xyloto</h4></p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div>
-                  <p>
-                    1. Mylo Xyloto
-                    <br>
-                    2. Hurts Like Heaven
-                    <br>
-                    3. Paradise
-                    <br>
-                    4. Charlie Brown
-                    <br>
-                    5. Us Against The World
-                    <br>
-                    6. M.M.I.X.
-                    <br>
-                    7. Major Minus
-                    <br>
-                    8. U.F.O.
-                    <br>
-                    9. Princess of China
-                  </p>
-                </div>
-                <div class="a btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://www.youtube.com/watch?v=YUy4awDXeSE&list=OLAK5uy_kl4b_zD7LKAf3zQLwthKpWCcNDwkxhU3Y">Disco</a></button>
-                </div>
-                <small class="a text-muted">14 Canciones</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="a col-md-4 ">
-          <div class="a card mb-4 shadow-sm">
-            <img src="img/10 Coldplay Live 2012.jpg" width="100%" height="300px" alt="">
-            <div class="a card-body">
-              <p class="a card-text"><h4>Coldplay Live 2012</h4></p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div>
-                  <p>
-                    1. Intro
-                    <br>
-                    2. Mylo Xyloto
-                    <br>
-                    3. Hurts Like Heaven
-                    <br>
-                    4. In My Place
-                    <br>
-                    5. Intermission 1
-                    <br>
-                    6. Major Minus
-                    <br>
-                    7. Yellow
-                    <br>
-                    8. Intermission 2
-                    <br>
-                    9. Violet Hill
-                  </p>
-                </div>
-                <div class="a btn-group ">
-                  <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://www.youtube.com/watch?v=rLm_aSP369M&list=PLsvoYlzBrLFBBe82GvEx6GQztG6m_Y2UD">Disco</a></button>
-                </div>
-                <small class="a text-muted">23 Canciones</small>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+    </section>
 
-</main>
 
-<footer class="a text-muted ">
-  <div class="a container ">
-    <p class="float-right ">
-      <a href="./ProyectoColdplay.html">Volver a pagina principal</a>
-    </p>
-    <p>Derechos de la pagina reservados</p>
-    <p><a href="https://getbootstrap.com/"></a>  <a href="../getting-started/introduction/"></a>.</p>
-  </div>
-</footer>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./java.js">
+
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
