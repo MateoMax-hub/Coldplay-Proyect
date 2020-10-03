@@ -294,14 +294,8 @@ body {
 .m-mb-5 {
     margin-bottom: 1rem;
 }
-.m-flex-wrap {
-    flex-wrap: nowrap;
-}
 .m-mt-5 {
     margin-top: 3rem;
-}
-.m-mb-5-none {
-    margin-bottom: 3rem;
 }
 
 /* clases para usar junto js */
@@ -322,12 +316,6 @@ body {
     }
     .m-social-icon {
         margin: 5px;
-    }
-    .m-flex-wrap {
-        flex-wrap: wrap;
-    }
-    .m-m-media {
-        margin-bottom: 3rem;
     }
     .m-mb-5 {
         margin-bottom: 1rem;
