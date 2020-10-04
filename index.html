@@ -821,14 +821,14 @@
         <footer class="footer d-flex flex-column align-items-center">
             <div class="d-flex flex-column align-items-center m-bg-form w-100" id="form">
                 <h2 class="text-white m-border-h2 p-2 mt-5 mb-5 bg-dark">¡CONTACTANOS!</h2>
-                <form name="formCont" onsubmit="return validateForm(event)" class="d-flex flex-column m-border-h2 m-form-padding bg-dark mb-4 m-w-form">
-                    <div class="d-flex m-mb-5">
-                        <div class="d-flex flex-column justify-content-between w-50 pr-3 m-h-162">
-                            <input id="input" name="fname" type="text" class="p-1 m-inputs w-100 m-border m-radius m-m-i" placeholder="* NOMBRE">
+                <form name="formCont" onsubmit="return validateForm(event)" class="d-flex flex-column m-border-h2 p-4 bg-dark mb-4 col-11 col-md-7">
+                    <div class="row m-mb-5">
+                        <div class="m-m-i-media d-flex flex-column justify-content-between col-lg-6 pr-3 m-h-162">
+                            <input id="input" name="fname" type="text" class="p-1 m-inputs w-100 m-border m-radius" placeholder="* NOMBRE">
                             <li class=" text-danger m-d-none" id="required">INGRESAR NOMBRE</li>
-                            <input id="input1" name="femail" type="text" class="p-1 m-inputs w-100 m-border m-radius m-m-i" placeholder="* EMAIL">
+                            <input id="input1" name="femail" type="text" class="p-1 m-inputs w-100 m-border m-radius" placeholder="* EMAIL">
                             <li class=" text-danger m-d-none" id="required1">INGRESAR EMAIL</li>
-                            <input id="input2" name="ftel" type="tel" class="p-1 m-inputs w-100 m-border m-radius m-m-i" placeholder="* NUMERO TELEFONICO">
+                            <input id="input2" name="ftel" type="tel" class="p-1 m-inputs w-100 m-border m-radius" placeholder="* NUMERO TELEFONICO">
                             <li class=" text-danger m-d-none" id="required2">INGRESAR TELEFONO</li>
                         </div>
                         <div class="d-flex flex-column w-50 pl-3">
@@ -836,17 +836,17 @@
                             <li class=" text-danger m-d-none" id="required3">INGRESAR MENSAJE</li>
                         </div>
                     </div>
-                    <button type="submit" class="text-white m-button m-radius">Enviar</button>
+                    <button type="submit" class="btn text-white m-button m-radius">Enviar</button>
                 </form>
             </div>
 
-            <div class="d-flex justify-content-between row-cols-3 bg-dark text-white w-100 m-h-150">
+            <div class="justify-content-between row bg-dark text-white w-100 py-4">
 
-                <p class="alert-light bg-dark col-4 m-p d-flex align-items-center">
+                <p class="alert-light bg-dark col-md-4 m-p d-flex align-items-center">
                     © Copyright 2020 Coldplay - All Rights Reserved
                 </p>
 
-                <div class="col-4 d-flex justify-content-center align-items-center">
+                <div class="col-md-4 d-flex justify-content-center align-items-center">
 
                     <a href="https://www.instagram.com/coldplay/" target="_blank">
                         <i class="fab fa-instagram m-social-icon"></i>
@@ -859,8 +859,8 @@
                     </a>
                 </div>
 
-                <div class="col-4 d-flex justify-content-end align-items-center">
-                    <a href="" class="align-items-center m-w-a m-h-a mr-4 m-nodeco" data-toggle="modal"
+                <div class="col-md-4 d-flex justify-content-end align-items-center">
+                    <a href="" class="align-items-center m-w-a m-h-a mr-4 m-nodeco m-color" data-toggle="modal"
                         data-target="#modalterm">
                         Términos y condiciones
                     </a>

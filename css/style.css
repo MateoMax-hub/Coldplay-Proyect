@@ -178,7 +178,7 @@ body {
 /* border para cards */
 
 .m-border {
-    border-color: #ffc107;
+    border-color: rgb(255, 186, 59);
 }
 
 
@@ -251,6 +251,7 @@ body {
 .m-social-icon {
     font-size: 40px;
     margin: 15px;
+    color: #ffc107;
 }
 
 
@@ -264,7 +265,7 @@ body {
 
 /* h2 que dice contactanos */
 .m-border-h2 {
-    border: 2px solid #ffc107;
+    border: 2px solid rgb(255, 186, 59);
     border-radius: 10px;
 }
 
@@ -277,13 +278,18 @@ body {
 
 /* boton enviar form  */
 .m-button {
-    background-color: #ffc107;
+    background-color: rgb(255, 186, 59);
     border: none;
 }
 
 /* radius para form  */
 .m-radius {
     border-radius: 10px;
+}
+
+/* color para a href terminos y condiciones */
+.m-color {
+    color: rgb(255, 186, 59);
 }
 
 
@@ -297,6 +303,9 @@ body {
 .m-mt-5 {
     margin-top: 3rem;
 }
+.m-m-i-media {
+    margin-bottom: 0px;
+}
 
 /* clases para usar junto js */
 .m-m-i {
@@ -308,6 +317,9 @@ body {
 /* MEDIA  */
 
 @media (max-width: 425px) {
+    .m-m-i-media {
+        margin-bottom: 24px;
+    }
     .m-w-form {
         width: 97%;
     }
@@ -316,6 +328,7 @@ body {
     }
     .m-social-icon {
         margin: 5px;
+    
     }
     .m-mb-5 {
         margin-bottom: 1rem;
