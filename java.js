@@ -103,3 +103,15 @@ function resizeForm() {
         textarea.className = "d-flex flex-column w-50 pl-3";
     }
 }
+
+if (window.screen.width <= 425){
+    Copi.className = "alert-light bg-dark col-md-4 m-p d-flex align-items-center justify-content-center"
+    textarea.className = "d-flex flex-column m-w-form pl-3";
+    TermCon.className = "align-items-center m-w-a m-h-a m-nodeco m-color"
+    SocialIcons.className ="col-md-4 d-flex justify-content-center align-items-center mt-2 mb-2"
+}else{
+    Copi.className = "alert-light bg-dark col-md-4 m-p d-flex align-items-center justify-content-start"
+    SocialIcons.className ="col-md-4 d-flex justify-content-center align-items-center"
+    TermCon.className = "align-items-center m-w-a m-h-a mr-4 m-nodeco m-color"
+    textarea.className = "d-flex flex-column w-50 pl-3";
+}
