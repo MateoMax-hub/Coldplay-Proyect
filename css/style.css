@@ -110,10 +110,11 @@
 
 /* color titulo de secciones */
 .t-tittle {
-    color: rgb(255, 186, 59);
+    color: white;
     border: solid rgb(255, 186, 59);
     border-radius: 1rem;
 }
+
 
 /* border de las card */
 .t-card {
