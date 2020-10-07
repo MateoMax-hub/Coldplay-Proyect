@@ -251,9 +251,11 @@ body {
 .m-social-icon {
     font-size: 40px;
     margin: 15px;
-    color: #ffc107;
+    color: rgb(255, 186, 59);
 }
-
+.m-social-icon:hover {
+    color: rgb(180, 132, 43);
+}
 
 /* bg para form */
 .m-bg-form {
@@ -281,6 +283,10 @@ body {
     background-color: rgb(255, 186, 59);
     border: none;
 }
+.m-button:hover {
+    background-color: rgb(180, 132, 43);
+    
+}
 
 /* radius para form  */
 .m-radius {
@@ -290,6 +296,10 @@ body {
 /* color para a href terminos y condiciones */
 .m-color {
     color: rgb(255, 186, 59);
+}
+.m-color:hover {
+    color: rgb(180, 132, 43);
+
 }
 
 
@@ -327,7 +337,7 @@ body {
         padding: 1rem;
     }
     .m-social-icon {
-        margin: 5px;
+        margin: 10px 20px;
     
     }
     .m-mb-5 {

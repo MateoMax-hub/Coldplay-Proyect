@@ -77,7 +77,29 @@ function validateForm(event) {
 
     if (NameC == true && EmailC == true && TelC == true && TextC == true) {
         $('#modalform').modal('show')
+        document.forms['formCont']['fname'].value = ""
+        document.forms['formCont']['femail'].value = ""
+        document.forms['formCont']['ftel'].value = ""
+        document.forms['formCont']['ftext'].value = ""
     } else {
     }
 
+}
+
+function resizeForm() {
+    var textarea = document.getElementById("textarea");
+    var TermCon = document.getElementById("TermCon")
+    var SocialIcons = document.getElementById("SocialIcons")
+    var Copi = document.getElementById("Copi")
+    if (window.screen.width <= 425){
+        Copi.className = "alert-light bg-dark col-md-4 m-p d-flex align-items-center justify-content-center"
+        textarea.className = "d-flex flex-column m-w-form pl-3";
+        TermCon.className = "align-items-center m-w-a m-h-a m-nodeco m-color"
+        SocialIcons.className ="col-md-4 d-flex justify-content-center align-items-center mt-2 mb-2"
+    }else{
+        Copi.className = "alert-light bg-dark col-md-4 m-p d-flex align-items-center justify-content-start"
+        SocialIcons.className ="col-md-4 d-flex justify-content-center align-items-center"
+        TermCon.className = "align-items-center m-w-a m-h-a mr-4 m-nodeco m-color"
+        textarea.className = "d-flex flex-column w-50 pl-3";
+    }
 }
