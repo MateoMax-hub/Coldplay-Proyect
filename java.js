@@ -91,27 +91,32 @@ function resizeForm() {
     var TermCon = document.getElementById("TermCon")
     var SocialIcons = document.getElementById("SocialIcons")
     var Copi = document.getElementById("Copi")
+    var input3 = document.getElementById("input3")
     if (window.screen.width <= 425){
         Copi.className = "alert-light bg-dark col-md-4 m-p d-flex align-items-center justify-content-center"
-        textarea.className = "d-flex flex-column m-w-form pl-3";
+        textarea.className = "d-flex flex-column m-w-form pl-3 mb-4";
         TermCon.className = "align-items-center m-w-a m-h-a m-nodeco m-color"
         SocialIcons.className ="col-md-4 d-flex justify-content-center align-items-center mt-2 mb-2"
+        input3.className = "m-inputs m-border m-radius "
     }else{
         Copi.className = "alert-light bg-dark col-md-4 m-p d-flex align-items-center justify-content-start"
         SocialIcons.className ="col-md-4 d-flex justify-content-center align-items-center"
+        input3.className = "m-inputs m-border m-radius m-m-i"
         TermCon.className = "align-items-center m-w-a m-h-a mr-4 m-nodeco m-color"
-        textarea.className = "d-flex flex-column w-50 pl-3";
+        textarea.className = "d-flex flex-column w-50 pl-3 m-p-15";
     }
 }
 
 if (window.screen.width <= 425){
+    input3.className = "m-inputs m-border m-radius "
     Copi.className = "alert-light bg-dark col-md-4 m-p d-flex align-items-center justify-content-center"
-    textarea.className = "d-flex flex-column m-w-form pl-3";
+    textarea.className = "d-flex flex-column m-w-form pl-3 mb-4";
     TermCon.className = "align-items-center m-w-a m-h-a m-nodeco m-color"
     SocialIcons.className ="col-md-4 d-flex justify-content-center align-items-center mt-2 mb-2"
 }else{
     Copi.className = "alert-light bg-dark col-md-4 m-p d-flex align-items-center justify-content-start"
     SocialIcons.className ="col-md-4 d-flex justify-content-center align-items-center"
     TermCon.className = "align-items-center m-w-a m-h-a mr-4 m-nodeco m-color"
-    textarea.className = "d-flex flex-column w-50 pl-3";
+    input3.className = "m-inputs m-border m-radius m-m-i"
+    textarea.className = "d-flex flex-column w-50 pl-3 m-p-15";
 }
