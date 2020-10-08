@@ -303,6 +303,11 @@ body {
 
 }
 
+/* pad para el textarea del form  */
+.m-p-15 {
+    padding-right: 15px;
+}
+
 
 /* bootstrap para modificar con el media */
 .m-form-padding {
